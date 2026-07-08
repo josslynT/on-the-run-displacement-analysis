@@ -79,7 +79,6 @@ on-the-run/
 │   ├── raw/
 │   └── processed/
 ├── sql/              # SQL cleaning & transformation
-│   ├── raw/          # raw source queries
 │   ├── intermediate/ # cleaning + transformation
 │   └── mart/         # joined, analysis-ready tables
 ├── notebooks/        # Python analysis — data manipulation, visual exploration, relationship queries
