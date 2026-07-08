@@ -3,8 +3,13 @@
 Analysis of 35 years of forced displacement data to understand **who is
 displaced, where they go, and how displacement patterns have changed over time.**
 
-## Key findings
+Why built On the run
 
+### answer ---
+
+
+## Key findings
+Part 1:
 1. **Most displaced people never cross a border.** 68% of all forcibly
    displaced people in 2025 are internally displaced (IDPs), trapped inside
    their own countries.
@@ -33,8 +38,12 @@ displaced, where they go, and how displacement patterns have changed over time.*
   joined datasets
 - Visualisation: Data Studio, Matplotlib, Seaborn
 
-## What do next (Josslyn & Yulia)
+## What us as the team has discovered first part ( Yulia, Bifftu, Joss) & second part (Yulia, Joss)
+Part 1: Accomplished 
 
+
+## What do next (Josslyn & Yulia)
+Part 2: On-going 
 - **Regression:** What drives refugee outflows? Modelling outflows against
   conflict intensity (UCDP fatalities, lagged by one year), disasters, and
   population — to separate the drivers of cross-border vs internal displacement.
@@ -47,9 +56,11 @@ displaced, where they go, and how displacement patterns have changed over time.*
 ## Team/ Credits 
 
 Originally built as a team project at Le Wagon Data Analytics Bootcamp;
-now being developed further. Details and full credits coming as the
+now being developed further. Details and further in-depth exploration coming as the
 next phase ships.
 
-## Full report
+## Repository Structure 
+-------
 
+## Full report
 [report/on-the-run-report.pdf](report/on-the-run-report.pdf)
