@@ -82,9 +82,8 @@ on event type, severity, and country context:
 ````
 
 ## Team & credits
-
-Part 1 built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Bifftu, Josslyn). 
-Part 2 is being actively developed by (Josslyn & Yulia).
+Part 1: Built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Bifftu, Josslyn). 
+Part 2: Further developed by (Josslyn & Yulia).
 
 ## Full report
 
