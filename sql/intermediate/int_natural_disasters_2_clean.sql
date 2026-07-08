@@ -1,0 +1,23 @@
+-- Rename the columns to usable names for querying in SQL.
+SELECT
+  DisNo_ AS event_id,
+  `Disaster Group` AS disaster_group,
+  `Disaster Subgroup` AS disaster_subgroup,
+  `Disaster Type` AS disaster_type,
+  `Event Name` AS event_name,
+  ISO AS country_iso,
+  Country AS country,
+  Subregion AS subregion,
+  Region AS region,
+  `Start Year` AS start_year,
+  `Start Month` AS start_month,
+  `Start Day` AS start_day,
+  `End Year` AS end_year,
+  `End Month` AS end_month,
+  `End Day` AS end_day,
+  `Total Deaths` AS total_deaths,
+  `No_ Injured` AS injured_count,
+  `No_ Affected` AS affected_count,
+  `No_ Homeless` AS homeless_count,
+  `Total Affected` AS total_affected,
+FROM `ontherun-499508.raw.natural_disasters_2`
