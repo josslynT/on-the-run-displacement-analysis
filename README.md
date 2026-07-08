@@ -90,7 +90,7 @@ on-the-run/
 ````
 
 ## Team & credits
-Part 1: Built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Bifftu, Josslyn). 
+Part 1: Built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Bifftu, Josslyn).
 Part 2: Further developed by (Josslyn & Yulia).
 
 ## Full report
