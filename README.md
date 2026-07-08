@@ -74,10 +74,19 @@ on event type, severity, and country context:
 ## Repository structure
 
 ````
-├── notebooks/        # Jupyter / Colab analysis notebooks
-├── sql/              # BigQuery queries
-├── visuals/          # Exported charts
-├── report/           # Final report (PDF)
+on-the-run/
+├── data/             # raw + cleaned data (UNHCR, World Bank, UCDP, EM-DAT)
+│   ├── raw/
+│   └── processed/
+├── sql/              # SQL cleaning & transformation
+│   ├── raw/          # raw source queries
+│   ├── intermediate/ # cleaning + transformation
+│   └── mart/         # joined, analysis-ready tables
+├── notebooks/        # Python analysis — data manipulation, visual exploration, relationship queries
+├── visuals/          # exported analysis charts
+├── dashboard/        # Looker Studio screenshots + supporting SQL
+├── docs/             # project scope, hypotheses, data dictionary
+├── report/           # final report (PDF) 
 └── README.md
 ````
 
