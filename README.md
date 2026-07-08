@@ -3,13 +3,26 @@
 Analysis of 35 years of forced displacement data to understand **who is
 displaced, where they go, and how displacement patterns have changed over time.**
 
-Why built On the run
+## Why we built On the Run
 
-### answer ---
+We built On the Run to look beyond the headlines and understand what is
+actually driving people from their homes. Our analysis focuses on three
+core questions:
 
+1. **What causes displacement?** We explored the role of armed conflict and
+   natural disasters in driving both internal displacement and cross-border
+   refugee flows — and how these two causes produce fundamentally different
+   outcomes.
+2. **How have patterns changed over time?** Across 35 years of data, we
+   traced how the scale and nature of displacement has shifted — including
+   the growing impact of climate-related disasters on temporary internal
+   displacement.
+3. **Who is displaced, and where do they go?** We identified which countries
+   consistently appear as origins of displacement, and whether displaced
+   people tend to stay within their borders or flee abroad.
 
-## Key findings
-Part 1:
+## Key findings — Part 1: Identifying the primary drivers of displacement
+
 1. **Most displaced people never cross a border.** 68% of all forcibly
    displaced people in 2025 are internally displaced (IDPs), trapped inside
    their own countries.
@@ -33,34 +46,46 @@ Part 1:
 
 ## Method
 
-- Cleaning & prep: Google sheets, BigQuery SQL, Python (pandas)
+- Cleaning & prep: Google Sheets, BigQuery SQL, Python (pandas)
 - Analysis: trend analysis and origin–destination flows across the four
-  joined datasets
-- Visualisation: Data Studio, Matplotlib, Seaborn
+  joined datasets (Jupyter / Google Colab notebooks)
+- Visualisation: Looker Studio, Matplotlib, Seaborn
 
-## What us as the team has discovered first part ( Yulia, Bifftu, Joss) & second part (Yulia, Joss)
-Part 1: Accomplished 
+## Part 2: In progress — Can displacement be modelled and predicted?
 
+Exploring whether displacement patterns can be modelled and predicted based
+on event type, severity, and country context:
 
-## What do next (Josslyn & Yulia)
-Part 2: On-going 
+- **Economy:** Do poorer countries produce more displaced people for the
+  same level of conflict or disaster? (Join World Bank GDP per capita /
+  poverty index to the existing country-year data.)
+- **Political regime:** Does regime type predict higher displacement?
+  (Join ready-made indices such as the Freedom House Index or Polity Score
+  to the current data.)
 - **Regression:** What drives refugee outflows? Modelling outflows against
   conflict intensity (UCDP fatalities, lagged by one year), disasters, and
-  population — to separate the drivers of cross-border vs internal displacement.
-- **Clustering:** Grouping countries into displacement profiles (IDP-heavy vs
-  refugee-heavy, conflict-driven vs disaster-driven) to see whether the
+  population — to separate the drivers of cross-border vs internal
+  displacement.
+- **Clustering:** Grouping countries into displacement profiles (IDP-heavy
+  vs refugee-heavy, conflict-driven vs disaster-driven) to see whether the
   drivers differ by profile.
 - Later: time-series forecasting of displacement trends.
-  
 
-## Team/ Credits 
+## Repository structure
 
-Originally built as a team project at Le Wagon Data Analytics Bootcamp;
-now being developed further. Details and further in-depth exploration coming as the
-next phase ships.
+````
+├── notebooks/        # Jupyter / Colab analysis notebooks
+├── sql/              # BigQuery queries
+├── visuals/          # Exported charts
+├── report/           # Final report (PDF)
+└── README.md
+````
 
-## Repository Structure 
--------
+## Team & credits
+
+Part 1 built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Bifftu, Josslyn). 
+Part 2 is being actively developed by (Josslyn & Yulia).
 
 ## Full report
+
 [report/on-the-run-report.pdf](report/on-the-run-report.pdf)
