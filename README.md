@@ -42,12 +42,13 @@ core questions:
 | UNHCR Refugee Data Finder | Displacement populations, 1990–2025 | [unhcr.org/refugee-statistics](https://www.unhcr.org/refugee-statistics/download) |
 | World Bank — World Development Indicators | Population data, 1990–2026 | [databank.worldbank.org](https://databank.worldbank.org/source/world-development-indicators) |
 | UCDP Georeferenced Event Dataset | Armed conflict events | [ucdp.uu.se](https://ucdp.uu.se/downloads/#ged_global) |
+| Our World in Data | Deaths in armed conflicts | [ourworldindata.org](https://ourworldindata.org/grapher/deaths-in-armed-conflicts) |
 | EM-DAT | Natural disaster events | [emdat.be](https://www.emdat.be/) |
 
 ## Method
 
 - Cleaning & prep: Google Sheets, BigQuery SQL, Python (pandas)
-- Analysis: trend analysis and origin–destination flows across the four
+- Analysis: Trend analysis and origin–destination flows across the four
   joined datasets (Jupyter / Google Colab notebooks)
 - Visualisation: Looker Studio, Matplotlib, Seaborn
 
