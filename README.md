@@ -50,7 +50,7 @@ core questions:
 - Cleaning & prep: Google Sheets, BigQuery SQL, Python (pandas)
 - Analysis: Trend analysis and origin–destination flows across the four
   joined datasets (Jupyter / Google Colab notebooks)
-- Visualisation: Looker Studio, Matplotlib, Seaborn
+- Visualisation: Looker Studio, Plotly Express, Matplotlib, Seaborn
 
 ## Part 2: In progress — Can displacement be modelled and predicted?
 
