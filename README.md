@@ -58,9 +58,6 @@ on event type, severity, and country context:
 - **Economy:** Do poorer countries produce more displaced people for the
   same level of conflict or disaster? (Join World Bank GDP per capita /
   poverty index to the existing country-year data.)
-- **Political regime:** Does regime type predict higher displacement?
-  (Join ready-made indices such as the Freedom House Index or Polity Score
-  to the current data.)
 - **Regression:** What drives refugee outflows? Modelling outflows against
   conflict intensity (UCDP fatalities, lagged by one year), disasters, and
   population — to separate the drivers of cross-border vs internal
@@ -88,7 +85,10 @@ on-the-run/
 │   ├── countries_origin.png
 │   ├── countries_deep_dive.png
 │   └── data/         # z_looker_*.csv feeds the dashboard
-├── docs/             # project scope, hypotheses, data dictionary
+├── docs/                    # data dictionary, build guide, hypotheses
+│   ├── data_dictionary.md   # unique reference
+│   ├── build_guide.md       # pipeline + reproduction
+│   └── hypotheses.md        # Part 1 + Part 2 roadmap
 ├── report/           # final 5-page report (PDF export of the dashboard)
 └── README.md
 ````
