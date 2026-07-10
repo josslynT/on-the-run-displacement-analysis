@@ -6,7 +6,7 @@ displaced, where they go, and how displacement patterns have changed over time.*
 ## Why we built On the Run
 
 We built On the Run to look beyond the headlines and understand what is
-actually driving people from their homes. Our analysis focuses on three
+actually driving people to flee. Our analysis focuses on three
 core questions:
 
 1. **What causes displacement?** We explored the role of armed conflict and
