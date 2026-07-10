@@ -33,8 +33,6 @@ core questions:
    predominantly cause internal displacement, while armed conflict and
    violence are the primary drivers of cross-border displacement.
 
-![Best chart](visuals/chart1.png)
-
 ## Data sources
 
 | Source | Used for | Link |
