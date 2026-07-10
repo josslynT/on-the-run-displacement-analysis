@@ -1,6 +1,6 @@
 # On the Run — Global Forced Displacement, 1990–2025
 
-Analysis of 35 years of forced displacement data to understand **who is
+Analysis of 36 years of forced displacement data to understand **who is
 displaced, where they go, and how displacement patterns have changed over time.**
 
 ## Why we built On the Run
@@ -13,7 +13,7 @@ core questions:
    natural disasters in driving both internal displacement and cross-border
    refugee flows — and how these two causes produce fundamentally different
    outcomes.
-2. **How have patterns changed over time?** Across 35 years of data, we
+2. **How have patterns changed over time?** Across 36 years of data, we
    traced how the scale and nature of displacement has shifted — including
    the growing impact of climate-related disasters on temporary internal
    displacement.
@@ -46,7 +46,7 @@ core questions:
 ## Method
 
 - Cleaning & prep: Google Sheets, BigQuery SQL, Python (pandas)
-- Analysis: Trend analysis and origin–destination flows across the four
+- Analysis: Trend analysis and origin–destination flows across the five
   joined datasets (Jupyter / Google Colab notebooks)
 - Visualisation: Looker Studio, Plotly Express, Matplotlib, Seaborn
 
@@ -78,7 +78,7 @@ on-the-run/
 ├── sql/              # SQL cleaning & transformation
 │   ├── intermediate/ # cleaning + transformation
 │   └── mart/         # joined, analysis-ready tables
-├── notebooks/        # Python analysis — data manipulation, visual exploration, relationship queries
+├── notebooks/        # Python analysis — data manipulation, exploration, relationship queries
 ├── visuals/          # exported analysis charts
 ├── dashboard/        # Looker Studio dashboard — 3 page screenshots
 │   ├── displacement_trend_overview.png
@@ -89,16 +89,16 @@ on-the-run/
 │   ├── data_dictionary.md   # unique reference
 │   ├── build_guide.md       # pipeline + reproduction
 │   └── hypotheses.md        # Part 1 + Part 2 roadmap
-├── report/           # final 5-page report (PDF export of the dashboard)
+├── report/           # final report (PDF export of the dashboard)
 └── README.md
 ````
 
 ## Team & credits
-Part 1: Built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Bifftu, Josslyn).
+Part 1: Built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Biiftuu, Josslyn).
 Part 2: Further developed by (Josslyn & Yulia).
 
 ## Full report
-📄 [Static report (PDF)](report/on_the_run_report.pdf) — all 5 pages, opens instantly
+📄 [Static report (PDF)](report/on_the_run_report.pdf) — all pages, opens instantly
 🔗 [Interactive dashboard on Looker Studio](https://datastudio.google.com/s/lvhqwPRxrwM) — filter and explore
 
 
