@@ -78,15 +78,16 @@ on event type, severity, and country context:
 on-the-run/
 ├── data/             # raw + cleaned data (UNHCR, World Bank, UCDP, Our World in Data, EM-DAT)
 │   ├── raw/
-│   └── processed/
+│   ├── processed/
+│   └── lookup/       # country crosswalk + conflict corrections
 ├── sql/              # SQL cleaning & transformation
 │   ├── intermediate/ # cleaning + transformation
 │   └── mart/         # joined, analysis-ready tables
 ├── notebooks/        # Python analysis — data manipulation, visual exploration, relationship queries
 ├── visuals/          # exported analysis charts
-├── dashboard/        # Looker Studio screenshots + supporting SQL
+├── dashboard/        # Looker Studio dashboard — 3-page screenshots (+ supporting data)
 ├── docs/             # project scope, hypotheses, data dictionary
-├── report/           # final report (PDF) 
+├── report/           # final 5-page report (PDF export of the dashboard)
 └── README.md
 ````
 
