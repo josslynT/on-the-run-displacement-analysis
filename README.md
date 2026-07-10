@@ -100,5 +100,4 @@ Part 1: Built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Biff
 Part 2: Further developed by (Josslyn & Yulia).
 
 ## Full report
-
-[report/on-the-run-report.pdf](report/on-the-run-report.pdf)
+[Full report (PDF)](report/on_the_run_report.pdf)
