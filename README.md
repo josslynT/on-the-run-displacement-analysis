@@ -85,8 +85,10 @@ on-the-run/
 │   └── mart/         # joined, analysis-ready tables
 ├── notebooks/        # Python analysis — data manipulation, visual exploration, relationship queries
 ├── visuals/          # exported analysis charts
-├── dashboard/        # Looker Studio dashboard
-│   ├── screenshots/  # 3 dashboard page PNGs
+├── dashboard/        # Looker Studio dashboard — 3 page screenshots
+│   ├── displacement_trend_overview.png
+│   ├── countries_origin.png
+│   ├── countries_deep_dive.png
 │   └── data/         # z_looker_*.csv feeds the dashboard
 ├── docs/             # project scope, hypotheses, data dictionary
 ├── report/           # final 5-page report (PDF export of the dashboard)
