@@ -100,4 +100,7 @@ Part 1: Built as a team project at Le Wagon Data Analytics Bootcamp (Yulia, Biff
 Part 2: Further developed by (Josslyn & Yulia).
 
 ## Full report
-[Full report (PDF)](report/on_the_run_report.pdf)
+📄 [Static report (PDF)](report/on_the_run_report.pdf) — all 5 pages, opens instantly
+🔗 [Interactive dashboard on Looker Studio](https://datastudio.google.com/s/lvhqwPRxrwM) — filter and explore
+
+
